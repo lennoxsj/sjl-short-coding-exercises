@@ -1,10 +1,15 @@
 """Dijkstra's algorithm: Given a weighted graph and starting node, 
 finds the shortest path from starting node to every other node.
 
+This is a "greedy" algorithm. It expands outward from the source and 
+locking in each node's distance once it's the smallest unfinalized one.
+
+Greedy: Makes the choice by what looks best now, never reconsidering.
+
 Output: Distance from start node to all other nodes is stored as a dict.
 
-Edges must be non-negative. See Johnson's algorithm or Bellman-Ford algorithm 
-for problems with negative edges.
+Constraints: Edge weights must be non-negative. See Johnson's algorithm or 
+Bellman-Ford algorithm for problems with negative edges.
 """
 
 import heapq

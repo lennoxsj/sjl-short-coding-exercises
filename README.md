@@ -4,6 +4,9 @@ A collection of very short Python code samples — classic algorithms and small 
 
 ## Contents
 
+dijkstra.py
+Dijkstra's algorithm finds the shortest path from start to all other nodes in a graph with non-negative edge weights
+
 quicksort.py
 Quicksort with median-of-three pivot, returns the sorted array and a comparison count
 
